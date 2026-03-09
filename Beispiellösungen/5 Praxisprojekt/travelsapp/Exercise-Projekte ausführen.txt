@@ -2,10 +2,8 @@ Exercise-Projekte so ausführen:
 0. Unter Windows: attrib -r bootstrap\cache /S /D
                         '-> ohne/sonst taucht im nächsten Schritt ein folgender Fehler
 1. npm run setup-all
-2. php artisan serve
+2. php artisan serve       Als Einzeiler: cd ..\Exercise1\; attrib -r bootstrap\cache /S /D; npm run setup-all
 3. http://127.0.0.1:5500/ im Browser aufrufen
-
-
 
 
 
