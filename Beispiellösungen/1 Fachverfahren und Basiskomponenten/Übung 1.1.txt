@@ -1,0 +1,47 @@
+Auskunftsverfahren:
+- BayernInfo
+- Webseite der Hochschule Hof
+
+Antragsverfahren:
+- Beantragung von Kindergeld
+- Anmeldung eines Kfz
+
+Sachbearbeitungsverfahren:
+- IHV - Integriertes Haushalts- und Kassenverfahren
+- BayBAS - Beihilfe-Sachbearbeitung
+
+Unterstützendes Verfahren
+- BayernPortal: Portal für verschiedene Verwaltungsdienste
+- BayZeit: Zeiterfassungssystem
+- ePayServiceBayern - Bezahlplattform für Fachverfahren des Freistaates Bayern
+
+
+Weitere Verfahren (ungeprüft):
+- Penetrationstest beim LSI Antrag-Sachbearbeiter
+- PVSplus im Bund als Auskunftsverfahren
+- Beantragung Wohngeld, Online Abmeldung des KFZ
+- MACH - Vorgangsbearbeitungssystem - Sachbearbeitungsverfahren
+- Elterngeld Online-Antrag (Antragsverfahren)
+- Planung von Hochwasserschutzanlagen als Sachverfahren
+- zbfs Elterngeldantrag
+- SAP ERP = Sachbearb.verfahren
+- SAP BW = Auskunftsverfahren
+- Baumauskunft inkl. -Patenschaften = Auskunft- und Antragsverfahren
+- Und Urlaub beantragen (Pvs haben wir auch)
+- IHV (Integriertes Haushaltsverfahren des FBY) —> Sachbearbeitungsverfahren
+- BayZeit - Zeiterfassung und Urlaubsantrage - Webbasiert - Kombination aus Antrag und Auskunft
+- INPOL / INZOLL --> Sachbearbeitungs- / und Auskunftsverfahren
+- Elster für die Steuererklärung
+- FAZIT - Zeiterfassung Bund - webbasiert Auskunft und Antrag
+- Mehrfachantrag (Förderung für landwirtschaftliche Betriebe) - Antragsverfahren (web-basiert)
+- Anzeigeerstattung der Bayerischen Polizei
+- TMS Bund - Reisekostenatrag
+- PWS Reisekosten von der AKDB- webbasiert, Auskunft und Antrag
+- Also planung von hochwasserschutzanlagen meinte ich Flys von der BFG, das ist als Beispiel eine - hochkompexe Anwendung mit simulationen von überschwemnmungskarten etc.
+- EWO - Einwohnermeldeauskunft
+- Dann die fachverfahren die man mit dem Perso machen kann z.b. Führungszeugnis beantragen
+- BundID - Zur Anmeldung und Registrierung bei Behördenportalen
+- ELDORA - Dokumentenmanagement - Auskunft
+- Lehrenden Einmeldung; Anrechnungsanträge; Prüfungsmanagement; Mitverwendungs,- - Deinstzuteilungsanträge
+- Schw@pp (Bearbeiten von Schwerbehinderungs- Anträgen) - Sachbearbeitungsverfahren
+- E-akte Bund

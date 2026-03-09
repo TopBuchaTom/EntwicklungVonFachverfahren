@@ -1,0 +1,44 @@
+@startuml travelsapp.datamodel.crud
+skinparam classAttributeIconSize 0
+hide circle
+
+namespace travelsapp.datamodel.crud {
+    class Travel <<Entity>> {
+        +id: int {readonly} {autoincrement}
+        +title: String
+        +location: String
+        +start: DateTime
+        +end: DateTime
+        +amount: decimal
+        +details: String
+    }
+
+    note top of Travel
+        Advantaged revisions approach:
+        Only one additional Event entity is needed
+        Only changes are persisted instead of full data copies
+    end note
+
+    class Event <<Entity>> {
+        +id: int {readonly} {autoincrement}
+        +entity: string {entity_name}
+        +record_id: int {entity_row_id}
+        +changes: JsonObject
+    }
+
+    Travel .left. Event: <<event sourcing>>
+
+    note top of Event
+        Saves only changes, e.g.
+        - entityType=Travel, record_id=travelId1, changes={location: 'Hochschule Hof'}
+        - entityType=Travel, record_id=travelId1, changes={amount: 100}
+        - entityType=Travel, record_id=travelId1, changes={
+            title:undefined,location:undefined,
+            start:undefined,end:undefined,
+            amount:undefined,details:undefined
+          }
+
+    end note
+}
+
+@enduml

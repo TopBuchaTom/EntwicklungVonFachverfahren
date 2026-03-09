@@ -1,0 +1,132 @@
+Task 1:
+CSS:
+button {
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    width: 170px;
+    padding: 10px;
+    text-align: center;
+}
+
+HTML:
+<h1>Need help?</h1>
+<p>
+    If you have any problems with our products, our  support center can offer you all the help you need, whether you want:
+</p>
+<ol>
+    <li>Advice choosing a new product</li>
+    <li>Tech support on an existing product</li>
+    <li>Refund and cancellation assistance</li>
+</ol>
+<h2>Contact us now</h2>
+<p>
+Our help center contains live chat, e-mail addresses, and phone numbers.
+</p>
+<button>Find Contact Details</button>
+<h2>Find out answers</h2>
+<p>
+Our Forums section contains a large knowledge base of searchable previously asked questions, and you can always ask a new question if you can't find the answer you're looking for.
+</p>
+<button>Access Forums</button>
+ 
+Task 2:
+<form>
+  <fieldset>
+  <legend>Personal data</legend>
+  <ul>
+    <li>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name">
+    </li>
+    <li>
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age">
+    </li>
+    <li>
+      <label for="email">Email address</label>
+      <input type="email" name="email" id="email">
+    </li>
+  </ul>
+</fieldset>
+</form>
+ 
+Task 3:
+<p>For more information about our activities, check out our <a href="/fundraising">fundraising page</a>, <a href="/education">education page</a>, <a href="/resources/sponsorship.pdf">sponsorship pack (pdf file, 8 MB)</a>, and <a href="/resources/assessments.docx">assessment sheets (word document, requirements installed application)</a>.</p>
+ 
+// Alternativ:
+<p>For more information about our activities, check out our fundraising page (<a href="/fundraising" title="fundraising page">click here</a>), education page (<a href="/education" title="education page">click here</a>), sponsorship pack (<a href="/resources/sponsorship.pdf" title="sponsorship pack (pdf file, 8 MB)">click here</a>), and assessment sheets (<a href="/resources/assessments.docx" title="assessment sheets (word document, requires installed application)">click here</a>).</p>
+ 
+Task 4:
+
+CSS:
+
+.preview {
+  width: 400px;
+  margin: 0 auto;
+}
+
+main img {
+  display: block;
+  width: 250px;
+  margin: 20px auto;
+  box-shadow: 5px 5px 0 black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-image: url('images/star.png');
+  background-repeat: no-repeat;
+  background-position-x: 10%;
+  background-position-y: 40%;
+}
+
+HTML:
+<header>
+  <h1>Groovy images</h1>
+</header>
+<main>
+  <img src="images/teapot.jpg" alt="teapot">
+  <img src="images/football.jpg" alt="football">
+</main>
+
+Alternative:
+
+CSS:
+
+.preview {
+  width: 400px;
+  margin: 0 auto;
+}
+
+main img {
+  display: block;
+  width: 250px;
+  margin: 20px auto;
+  box-shadow: 5px 5px 0 black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+header > h1:before{
+  content: '\272F \00a0’
+}
+
+HTML:
+
+<header>
+  <h1>Groovy images</h1>
+</header>
+<main>
+  <img src="images/teapot.jpg" alt="teapot">
+  <img src="images/football.jpg" alt="football">
+</main>
+ 

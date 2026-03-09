@@ -1,0 +1,1 @@
+Nein, wenn diese bereits eine Semantik haben, wäre dies redundant. Primär sollte man es nur nutzen, wenn man komplett neue Steuerelemente mit für Unterstützungstechnologien unbekannter Semantik realisiert bzw. partielle Updates umsetzt.

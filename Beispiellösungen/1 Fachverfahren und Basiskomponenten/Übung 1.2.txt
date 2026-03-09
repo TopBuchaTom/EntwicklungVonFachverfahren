@@ -1,0 +1,19 @@
+Ja, da die verwendete Technologie nicht entscheidend ist. Ausschlaggebend ist die Umsetzung eines oder mehrerer Geschäftsprozesse der öff. Verwaltung unter Einsatz von IT.
+
+Beispiele:
+- BayernApp
+- HofUniversity App
+- AusweisApp
+- ...
+
+
+Weitere Apps (ungeprüft):
+- MSB FIVE von Mobisys für Baumkontrollen, Spielplatzkontrollen, Grünflächenpflege, Brückeninstandhaltung und Gewässerpflege
+- Beihilfe-App
+- Ordnungsamt Online (auf den Bezirksebenen des Landes Berlin) kann man illegal entsorgten Müll melden
+- AusweisApp als unterstützendes Verfahren
+- Auskunftssystem der Feuerwehr (Tablets) als Auskunftssystem
+- Winterdienst über Tablet
+- eAkte App
+- Verortung städtischer Objekte (z.B. Bäume) im ERSI GIS (via App oder Browser) auf den Endgeräten = Sachbearbeitungsverfahren
+- BWI / Bundesmessenger

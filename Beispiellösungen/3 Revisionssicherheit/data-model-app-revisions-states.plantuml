@@ -1,0 +1,39 @@
+@startuml travelsapp.datamodel.revisions.states
+skinparam classAttributeIconSize 0
+hide circle
+
+namespace travelsapp.datamodel.revisions.states {
+    class Travel <<Entity>> {
+         +id: int {readonly} {autoincrement}
+        +title: String
+        +location: String
+        +start: DateTime
+        +end: DateTime
+        +amount: decimal
+        +details: String
+    }
+
+    note top of Travel
+        Simple revisions approach:
+        One extra entity for each type (e.g. travel) and association (e.g. participant) to track or same entity with additional attribute
+        Requires a lot of memory because for each state all data is copied, even if no changes were made
+    end note
+
+    class RequestedTravel <<Entity>> {
+        +originalId: int
+    }
+
+    class VerificatedTravel <<Entity>> {
+        +originalId: int
+    }
+
+    class ApprovedTravel <<Entity>> {
+        +originalId: int
+    }
+
+    Travel <|-- RequestedTravel
+    Travel <|-- VerificatedTravel
+    Travel <|-- ApprovedTravel
+}
+
+@enduml

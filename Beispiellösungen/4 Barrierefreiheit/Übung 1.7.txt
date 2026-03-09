@@ -1,0 +1,4 @@
+- Wahrnehmbar: Webinhalte sind wahrnehmbar zu realisieren, u.a. via Alternativtexte für Medien, Alternativen für zeitbasierte Medien, anpassbare Darstellung und Erleichterung des Sehens u. Hörens, u.a. durch Unabh. der dargestellten Daten von Farbe
+- Bedienbar: Bestandteile der Oberfläche und Navigation müssen aktiv für Anwender nutzbar sein, d.h. Tastaturbedienbarkeit, Zeit zum Lesen/Nutzen der Webinhalte, (epileptische) Anfälle verhin-derndes Design, Support von Positionsbestimmung u. Navigation
+- Verständlich: Darstellung + Bedienung eines Webangebots, die einfaches Begreifen ermöglicht, d.h. Verständlichkeit + Lesbarkeit von Inhalten, vorhersehbare Darstellung samt Verhalten sowie Unterstützung v. Anwendern bei Fehlervermeidung und -korrektur
+- Robust: Webinhalte sollen zuverlässig von möglichst großer Zahl an Useragents und AT interpretiert werden können.

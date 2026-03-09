@@ -1,0 +1,14 @@
+applicant:
+- UML: Alternativ zur Assoziation ein Attribut applicant_id (man sollte aber nicht gleichzeitig Assoziation einzeichnen, außer applicant ist ein zur ID zusätzliches Navigation-Property) oder bei Assoziation Qualifier ergänzen (Rechteck mit Name von Attribut am Ende von Assoziation zeichnen)
+- Java: Referenz auf User
+- Tabelle: Fremdschlüssel-Beziehung mit Fremdschlüssel in Tabelle Travel
+
+reviews:
+- UML: Navigationsrichtung über Pfeilspitze bzw. X-Zeichen für Richtung, in die nicht zurücknavigiert werden kann, falls man nur von Travel zu Review kommen soll, aber nicht umgekehrt
+- Java: ArrayList von User-Referenzen
+- Tabelle: Fremdschlüssel-Beziehung mit Fremdschlüssel in Tabelle Review
+
+participants:
+- UML: Assoziationsklasse
+- Java: ArrayList von Participant-Referenzen, wobei Participant-Klasse dann wieder ArrayList von User-Referenzen hat
+- Tabelle: Mapping-Tabelle

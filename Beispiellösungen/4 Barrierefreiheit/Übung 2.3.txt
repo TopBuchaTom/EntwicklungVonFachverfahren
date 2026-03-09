@@ -1,0 +1,105 @@
+Task 1:
+
+<p>My favorite animals:</p>
+
+<div role="list">
+  <div role="listitem">Pig</div>
+  <div role="listitem">Gazelle</div>
+  <div role="listitem">Llama</div>
+  <div role="listitem">Majestic moose</div>
+  <div role="listitem">Hedgehog</div>
+</div>
+ 
+Task 2:
+
+<form role="search">
+  <input type="search" name="search" aria-label="search keyword">
+</form>
+ 
+Task 3:
+
+aria-live=“assertive” ergänzen bei Bereich, der aktualisiert wird
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8"/>
+    <title>JavaScript accessibility: Task 1</title>
+    <style>
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      li {
+        cursor: pointer;
+      }
+
+      button {
+        background-color: transparent;
+        border-color: transparent;
+      }
+    </style>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+
+    <section class="preview">
+
+      <div class="animal-list">
+        <h1>Animal summaries</h1>
+
+        <p>The following list of animals can be clicked to display a description of that animal.</p>
+
+        <ul>
+          <li>
+            <button data-description="A type of wild mountain goat, with large recurved horns, found in Eurasia, North Africa, and East Africa.">
+                Ibex
+            </button>
+          </li>
+          <li>
+            <button data-description="A medium-sized marine mammal, similar to a manatee, but with a Dolphin-like tail.">
+                Dugong
+            </button>
+          </li>
+          <li>
+            <button data-description="A rare marsupial, which looks rather like a tiny kangaroo, measuring around 50 to 75 centimeters.">
+                Quokka
+            </button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="animal-description" aria-live="assertive">
+        <h2></h2>
+
+        <p></p>
+      </div>
+
+    </section>
+
+  </body>
+  <script>
+
+    const listItems = document.querySelectorAll('li');
+    const descHeading = document.querySelector('.animal-description h2');
+    const descPara = document.querySelector('.animal-description p');
+
+    listItems.forEach(function(item) {
+      item.addEventListener('click', handleSelection);
+    })
+
+    function handleSelection(e) {
+      const heading = e.target.textContent;
+      const description = e.target.getAttribute('data-description');
+      descHeading.textContent = heading;
+      descPara.textContent = description;
+    }
+  </script>
+
+</html>

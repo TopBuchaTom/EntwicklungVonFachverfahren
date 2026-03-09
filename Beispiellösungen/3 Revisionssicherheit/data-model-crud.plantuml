@@ -1,0 +1,22 @@
+@startuml travelsapp.datamodel.crud
+skinparam classAttributeIconSize 0
+hide circle
+
+namespace travelsapp.datamodel.crud {
+    class Travel <<Entity>> {
+        +id: int {readonly} {autoincrement}
+        +title: String
+        +location: String
+        +start: DateTime
+        +end: DateTime
+        +amount: decimal
+        +details: String
+    }
+
+    note top of Travel
+        Simple CRUD approach:
+        Only latest update of a travel is persisted
+    end note
+}
+
+@enduml
