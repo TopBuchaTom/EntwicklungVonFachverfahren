@@ -2,7 +2,6 @@ Exercise-Projekte so ausführen:
 0. Unter Windows: attrib -r bootstrap\cache /S /D
                         '-> ohne/sonst taucht im nächsten Schritt ein folgender Fehler
 1. npm run setup-all
-   bei Fehler: composer install --prefer-dist --no-plugins --no-scripts
 2. php artisan serve
 3. http://127.0.0.1:5500/ im Browser aufrufen
 
