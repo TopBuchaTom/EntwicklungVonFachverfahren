@@ -5,3 +5,12 @@ Exercise-Projekte so ausführen:
    bei Fehler: composer install --prefer-dist --no-plugins --no-scripts
 2. php artisan serve
 3. http://127.0.0.1:5500/ im Browser aufrufen
+
+
+
+
+
+
+ich habe in package.json folgendes hinzugefügt:
+"name": "travelsapp",
+ohne das wird in package-lock.json der name immer durch den Oberordner ersetzt
