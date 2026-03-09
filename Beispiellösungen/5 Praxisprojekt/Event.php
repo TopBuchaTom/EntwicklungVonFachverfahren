@@ -182,3 +182,4 @@ class Event extends Model
         return self::getEntityName($typename) . "s";
     }
 }
+
