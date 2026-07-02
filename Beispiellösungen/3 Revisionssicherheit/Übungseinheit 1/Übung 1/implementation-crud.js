@@ -12,9 +12,13 @@ class Travel {
     }
 }
 
-function Travel(title, location, start, end, amount, details) {
-    return Object.apply(this, { title, location, start, end, amount, details });
-}
+//oder:
+//function Travel(title, location, start, end, amount, details) {
+//    return Object.apply(this, { title, location, start, end, amount, details });
+//}
+//von mir auskommentiert:
+//In JavaScript darf Travel nicht zweimal im selben Scope deklariert werden.
+//Klasse wird in JS als funktion umgesetzt
 
 class TravelRepository {
     #travels = [];
@@ -61,7 +65,10 @@ function createSomeTravelRequest() {
 }
 
 function review1OfSomeTravelRequest(travelId) {
+    console.log("**********")   //von mir
     const travel = travelRepository.getTravel(travelId);
+    console.log(travel)         //von mir
+    console.log("**********")   //von mir
     travel.location = "Hochschule Hof";
 
     travelRepository.updateTravel(travelId, travel);
